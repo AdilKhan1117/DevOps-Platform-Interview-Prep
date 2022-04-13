@@ -1,0 +1,33 @@
+What is a container?
+- A way to package application with all the necessary dependencies and configuration
+- Portable standardized artifact for development, shipment and deployment.
+- Makes development and deployment more efficient.
+
+Docker Image vs Docker Container:
+Docker Image:
+- The actual package (file)
+- Artifact that can be moved around
+- Not in "running" state
+- Consists of several layers
+- Mostly Linux Base Image, application, image on top.
+
+Docker Container:
+- Actually starts the application
+- Is a running environment defined in the image
+- Virtual file system
+- Port binding: talk to application running
+
+
+What is the difference between a Container vs VM Image? 
+
+- Size: Docker Imagemuch smaller
+- Speed: Dockercontainers start and run much faster
+- Compatibility: VM ofany OS can run on anyOS host
+
+Container:
+Abstraction at the app layer
+Multiple containers share the OS kernel
+
+Virtual Machines:
+Abstraction of physical hardware
+Each VM includes a full copy of an OS
